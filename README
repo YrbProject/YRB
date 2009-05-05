@@ -1,0 +1,4 @@
+YRB library
+----------
+YRB library depends on SDBM. In order to build YRB, libapr is required and CPPFLAGS also need to be set when run ./configure
+    env CPPFLAGS=-I/usr/local/include/apr-1 ./configure
