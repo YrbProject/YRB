@@ -1,0 +1,161 @@
+PropertyResourceBundle.lo : \
+ PropertyResourceBundle.cc \
+ /usr/include/sys/time.h /usr/include/sys/types.h \
+ /usr/include/sys/cdefs.h /usr/include/sys/inttypes.h \
+ /usr/include/machine/ansi.h /usr/include/machine/types.h \
+ /usr/include/machine/endian.h /usr/include/time.h \
+ /usr/include/sys/_posix.h /usr/include/g++/set \
+ /usr/include/g++/stl_tree.h /usr/include/g++/stl_algobase.h \
+ /usr/include/g++/stl_config.h /usr/include/g++/_G_config.h \
+ /usr/include/stddef.h /usr/include/g++/stl_relops.h \
+ /usr/include/g++/stl_pair.h /usr/include/g++/type_traits.h \
+ /usr/include/string.h /usr/include/limits.h \
+ /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+ /usr/include/stdlib.h /usr/include/g++/new.h /usr/include/g++/new \
+ /usr/include/g++/exception /usr/include/g++/iostream.h \
+ /usr/include/g++/streambuf.h /usr/include/g++/libio.h \
+ /usr/include/g++/stl_iterator.h /usr/include/g++/stl_alloc.h \
+ /usr/include/assert.h /usr/include/g++/stl_construct.h \
+ /usr/include/g++/stl_function.h /usr/include/g++/stl_set.h \
+ /usr/include/g++/stl_multiset.h /usr/include/stdio.h \
+ /usr/include/g++/string /usr/include/g++/std/bastring.h \
+ /usr/include/g++/cstddef /usr/include/g++/std/straits.h \
+ /usr/include/g++/cctype /usr/include/ctype.h /usr/include/runetype.h \
+ /usr/include/g++/cstring /usr/include/g++/alloc.h \
+ /usr/include/g++/iterator /usr/include/g++/std/bastring.cc \
+ /usr/include/sys/stat.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h PropertyResourceBundle.h \
+ /usr/include/g++/list /usr/include/g++/stl_uninitialized.h \
+ /usr/include/g++/stl_list.h /usr/include/g++/map \
+ /usr/include/g++/stl_map.h /usr/include/g++/stl_multimap.h \
+ Exception.h yrbLog.h /usr/include/g++/fstream \
+ /usr/include/g++/fstream.h /usr/include/g++/iostream \
+ /usr/include/stdarg.h ResourceConfig.h /usr/include/errno.h \
+ /usr/include/dirent.h /usr/include/sys/dirent.h ResourceFile.h \
+ /usr/include/g++/vector /usr/include/g++/stl_vector.h \
+ /usr/include/g++/stl_bvector.h ResourceBundleCache.h \
+ /usr/local/include/apr-1/apr_sdbm.h /usr/local/include/apr-1/apu.h \
+ /usr/local/include/apr-1/apr_errno.h /usr/local/include/apr-1/apr.h \
+ /usr/include/sys/socket.h /usr/include/machine/param.h \
+ /usr/include/sys/wait.h /usr/local/include/apr-1/apr_file_io.h \
+ /usr/local/include/apr-1/apr_pools.h \
+ /usr/local/include/apr-1/apr_general.h /usr/include/signal.h \
+ /usr/include/sys/signal.h /usr/include/machine/signal.h \
+ /usr/include/machine/trap.h /usr/include/sys/ucontext.h \
+ /usr/include/machine/ucontext.h /usr/local/include/apr-1/apr_want.h \
+ /usr/local/include/apr-1/apr_allocator.h \
+ /usr/local/include/apr-1/apr_thread_mutex.h \
+ /usr/local/include/apr-1/apr_time.h \
+ /usr/local/include/apr-1/apr_file_info.h \
+ /usr/local/include/apr-1/apr_user.h \
+ /usr/local/include/apr-1/apr_tables.h /usr/include/sys/uio.h \
+ /usr/local/include/apr-1/apr_inherit.h /usr/include/g++/hash_map \
+ /usr/include/g++/stl_hashtable.h /usr/include/g++/stl_tempbuf.h \
+ /usr/include/g++/stl_algo.h /usr/include/g++/stl_heap.h \
+ /usr/include/g++/stl_hash_fun.h /usr/include/g++/stl_hash_map.h
+PropertyResourceBundle.cc :
+/usr/include/sys/time.h :
+/usr/include/sys/types.h :
+/usr/include/sys/cdefs.h :
+/usr/include/sys/inttypes.h :
+/usr/include/machine/ansi.h :
+/usr/include/machine/types.h :
+/usr/include/machine/endian.h :
+/usr/include/time.h :
+/usr/include/sys/_posix.h :
+/usr/include/g++/set :
+/usr/include/g++/stl_tree.h :
+/usr/include/g++/stl_algobase.h :
+/usr/include/g++/stl_config.h :
+/usr/include/g++/_G_config.h :
+/usr/include/stddef.h :
+/usr/include/g++/stl_relops.h :
+/usr/include/g++/stl_pair.h :
+/usr/include/g++/type_traits.h :
+/usr/include/string.h :
+/usr/include/limits.h :
+/usr/include/machine/limits.h :
+/usr/include/sys/syslimits.h :
+/usr/include/stdlib.h :
+/usr/include/g++/new.h :
+/usr/include/g++/new :
+/usr/include/g++/exception :
+/usr/include/g++/iostream.h :
+/usr/include/g++/streambuf.h :
+/usr/include/g++/libio.h :
+/usr/include/g++/stl_iterator.h :
+/usr/include/g++/stl_alloc.h :
+/usr/include/assert.h :
+/usr/include/g++/stl_construct.h :
+/usr/include/g++/stl_function.h :
+/usr/include/g++/stl_set.h :
+/usr/include/g++/stl_multiset.h :
+/usr/include/stdio.h :
+/usr/include/g++/string :
+/usr/include/g++/std/bastring.h :
+/usr/include/g++/cstddef :
+/usr/include/g++/std/straits.h :
+/usr/include/g++/cctype :
+/usr/include/ctype.h :
+/usr/include/runetype.h :
+/usr/include/g++/cstring :
+/usr/include/g++/alloc.h :
+/usr/include/g++/iterator :
+/usr/include/g++/std/bastring.cc :
+/usr/include/sys/stat.h :
+/usr/include/unistd.h :
+/usr/include/sys/unistd.h :
+PropertyResourceBundle.h :
+/usr/include/g++/list :
+/usr/include/g++/stl_uninitialized.h :
+/usr/include/g++/stl_list.h :
+/usr/include/g++/map :
+/usr/include/g++/stl_map.h :
+/usr/include/g++/stl_multimap.h :
+Exception.h :
+yrbLog.h :
+/usr/include/g++/fstream :
+/usr/include/g++/fstream.h :
+/usr/include/g++/iostream :
+/usr/include/stdarg.h :
+ResourceConfig.h :
+/usr/include/errno.h :
+/usr/include/dirent.h :
+/usr/include/sys/dirent.h :
+ResourceFile.h :
+/usr/include/g++/vector :
+/usr/include/g++/stl_vector.h :
+/usr/include/g++/stl_bvector.h :
+ResourceBundleCache.h :
+/usr/local/include/apr-1/apr_sdbm.h :
+/usr/local/include/apr-1/apu.h :
+/usr/local/include/apr-1/apr_errno.h :
+/usr/local/include/apr-1/apr.h :
+/usr/include/sys/socket.h :
+/usr/include/machine/param.h :
+/usr/include/sys/wait.h :
+/usr/local/include/apr-1/apr_file_io.h :
+/usr/local/include/apr-1/apr_pools.h :
+/usr/local/include/apr-1/apr_general.h :
+/usr/include/signal.h :
+/usr/include/sys/signal.h :
+/usr/include/machine/signal.h :
+/usr/include/machine/trap.h :
+/usr/include/sys/ucontext.h :
+/usr/include/machine/ucontext.h :
+/usr/local/include/apr-1/apr_want.h :
+/usr/local/include/apr-1/apr_allocator.h :
+/usr/local/include/apr-1/apr_thread_mutex.h :
+/usr/local/include/apr-1/apr_time.h :
+/usr/local/include/apr-1/apr_file_info.h :
+/usr/local/include/apr-1/apr_user.h :
+/usr/local/include/apr-1/apr_tables.h :
+/usr/include/sys/uio.h :
+/usr/local/include/apr-1/apr_inherit.h :
+/usr/include/g++/hash_map :
+/usr/include/g++/stl_hashtable.h :
+/usr/include/g++/stl_tempbuf.h :
+/usr/include/g++/stl_algo.h :
+/usr/include/g++/stl_heap.h :
+/usr/include/g++/stl_hash_fun.h :
+/usr/include/g++/stl_hash_map.h :

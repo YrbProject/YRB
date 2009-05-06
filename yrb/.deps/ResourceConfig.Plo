@@ -1,0 +1,103 @@
+ResourceConfig.lo : \
+ ResourceConfig.cc /usr/include/g++/iostream \
+ /usr/include/g++/iostream.h /usr/include/g++/streambuf.h \
+ /usr/include/g++/libio.h /usr/include/g++/_G_config.h \
+ /usr/include/stddef.h /usr/include/machine/ansi.h \
+ /usr/include/sys/cdefs.h /usr/include/g++/fstream \
+ /usr/include/g++/fstream.h /usr/include/g++/sstream \
+ /usr/include/g++/string /usr/include/g++/std/bastring.h \
+ /usr/include/g++/cstddef /usr/include/g++/std/straits.h \
+ /usr/include/g++/cctype /usr/include/ctype.h /usr/include/runetype.h \
+ /usr/include/g++/cstring /usr/include/string.h \
+ /usr/include/g++/alloc.h /usr/include/g++/stl_config.h \
+ /usr/include/g++/stl_alloc.h /usr/include/stdlib.h \
+ /usr/include/assert.h /usr/include/g++/iterator \
+ /usr/include/g++/stl_relops.h /usr/include/g++/stl_iterator.h \
+ /usr/include/g++/std/bastring.cc /usr/include/g++/set \
+ /usr/include/g++/stl_tree.h /usr/include/g++/stl_algobase.h \
+ /usr/include/g++/stl_pair.h /usr/include/g++/type_traits.h \
+ /usr/include/limits.h /usr/include/sys/_posix.h \
+ /usr/include/machine/limits.h /usr/include/sys/syslimits.h \
+ /usr/include/g++/new.h /usr/include/g++/new \
+ /usr/include/g++/exception /usr/include/g++/stl_construct.h \
+ /usr/include/g++/stl_function.h /usr/include/g++/stl_set.h \
+ /usr/include/g++/stl_multiset.h /usr/include/stdio.h \
+ /usr/include/sys/types.h /usr/include/sys/inttypes.h \
+ /usr/include/machine/types.h /usr/include/machine/endian.h \
+ /usr/include/sys/stat.h /usr/include/sys/time.h /usr/include/time.h \
+ ../yrb/ResourceConfig.h /usr/include/g++/list \
+ /usr/include/g++/stl_uninitialized.h /usr/include/g++/stl_list.h \
+ /usr/include/g++/map /usr/include/g++/stl_map.h \
+ /usr/include/g++/stl_multimap.h /usr/include/unistd.h \
+ /usr/include/sys/unistd.h /usr/include/errno.h /usr/include/dirent.h \
+ /usr/include/sys/dirent.h ../yrb/Exception.h ../yrb/yrbLog.h \
+ /usr/include/stdarg.h
+ResourceConfig.cc :
+/usr/include/g++/iostream :
+/usr/include/g++/iostream.h :
+/usr/include/g++/streambuf.h :
+/usr/include/g++/libio.h :
+/usr/include/g++/_G_config.h :
+/usr/include/stddef.h :
+/usr/include/machine/ansi.h :
+/usr/include/sys/cdefs.h :
+/usr/include/g++/fstream :
+/usr/include/g++/fstream.h :
+/usr/include/g++/sstream :
+/usr/include/g++/string :
+/usr/include/g++/std/bastring.h :
+/usr/include/g++/cstddef :
+/usr/include/g++/std/straits.h :
+/usr/include/g++/cctype :
+/usr/include/ctype.h :
+/usr/include/runetype.h :
+/usr/include/g++/cstring :
+/usr/include/string.h :
+/usr/include/g++/alloc.h :
+/usr/include/g++/stl_config.h :
+/usr/include/g++/stl_alloc.h :
+/usr/include/stdlib.h :
+/usr/include/assert.h :
+/usr/include/g++/iterator :
+/usr/include/g++/stl_relops.h :
+/usr/include/g++/stl_iterator.h :
+/usr/include/g++/std/bastring.cc :
+/usr/include/g++/set :
+/usr/include/g++/stl_tree.h :
+/usr/include/g++/stl_algobase.h :
+/usr/include/g++/stl_pair.h :
+/usr/include/g++/type_traits.h :
+/usr/include/limits.h :
+/usr/include/sys/_posix.h :
+/usr/include/machine/limits.h :
+/usr/include/sys/syslimits.h :
+/usr/include/g++/new.h :
+/usr/include/g++/new :
+/usr/include/g++/exception :
+/usr/include/g++/stl_construct.h :
+/usr/include/g++/stl_function.h :
+/usr/include/g++/stl_set.h :
+/usr/include/g++/stl_multiset.h :
+/usr/include/stdio.h :
+/usr/include/sys/types.h :
+/usr/include/sys/inttypes.h :
+/usr/include/machine/types.h :
+/usr/include/machine/endian.h :
+/usr/include/sys/stat.h :
+/usr/include/sys/time.h :
+/usr/include/time.h :
+../yrb/ResourceConfig.h :
+/usr/include/g++/list :
+/usr/include/g++/stl_uninitialized.h :
+/usr/include/g++/stl_list.h :
+/usr/include/g++/map :
+/usr/include/g++/stl_map.h :
+/usr/include/g++/stl_multimap.h :
+/usr/include/unistd.h :
+/usr/include/sys/unistd.h :
+/usr/include/errno.h :
+/usr/include/dirent.h :
+/usr/include/sys/dirent.h :
+../yrb/Exception.h :
+../yrb/yrbLog.h :
+/usr/include/stdarg.h :
