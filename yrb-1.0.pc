@@ -1,0 +1,11 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: yrb
+Description: yrb C++ library.
+Version: 0.1.0
+Libs: -L${libdir} -lyrb-1.0
+Cflags: -I${includedir}/yrb-1.0 -I${libdir}/yrb-1.0/include
+
