@@ -1,0 +1,14 @@
+#
+# Root resource file
+#
+HELLO_WORLD=News Hello World  Root!
+HOME_PAGE_OPTIONS=News Page Options Root
+WELCOME_USER=News Welcome Root
+COPYRIGHTS=<<<END
+Copyright © {1} Yahoo! Inc. 
+All Rights Reserved. 
+Root.
+END
+TOS_LINK_STR=Click here to see the terms of service
+FALL_KEY=New Fall Key root!
+UNIQUE_ROOT=Unique key to root!

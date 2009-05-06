@@ -1,0 +1,13 @@
+#
+# zh resource file
+#
+HELLO_WORLD=News Hello World  zh!
+HOME_PAGE_OPTIONS=News Page Options zh
+WELCOME_USER=News Welcome zh
+COPYRIGHTS=<<<END
+Copyright © {1} Yahoo! Inc.
+All Rights Reserved.
+zh.
+END
+TOS_LINK_STR=Click here to see the terms of service zh
+UNIQUE_ZH=Unique key to zh!
