@@ -192,12 +192,13 @@ string ugtInstrument(const string &uT, const string &ugtValue, const string &per
       struct dirent entry;
       struct dirent *result;
       struct stat st;
-      string path = this->config->getDir() + subdir;
-      path = path.substr(0, path.find_last_not_of("/")+1) + "/";
+      string path = this->config->getDir();
+      path = path.substr(0, path.find_last_not_of("/")+1) + "/" + subdir;
       string pathUgt = this->config->getDir() + "ugt/" + subdir;
       pathUgt = pathUgt.substr(0, pathUgt.find_last_not_of("/")+1) + "/";
       if ((dir = opendir(path.c_str())) != NULL) {
         result = NULL;
+	path = path.substr(0, path.find_last_not_of("/")+1) + "/";
 	do {
             if (readdir_r(dir, &entry, &result) == 0) {
                 if (result != NULL) {
