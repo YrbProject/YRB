@@ -5,6 +5,11 @@ cc_sources = ResourceBundleCache.cc ResourceFile.cc yrbLog.cc Exception.cc Prope
 
 library_includedir=$(includedir)/$(GENERIC_LIBRARY_NAME)-$(GENERIC_API_VERSION)/$(GENERIC_LIBRARY_NAME)
 library_include_HEADERS = $(h_sources)
+i
+yrb_cachedir=/home/y/var/yrb/cache/config
+yrb_cache_DATA=config.dir
+yrb_configdir=/home/y/conf/yrb
+yrb_config_DATA=yrb.conf
 
 INCLUDES = -I$(top_srcdir)
 
